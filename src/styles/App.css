@@ -1,12 +1,45 @@
-h1 {
-    color: #27aedb;
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .loading {
+    font-size: 24px;
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+  }
+  
+  .tour {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .tour img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tours {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
